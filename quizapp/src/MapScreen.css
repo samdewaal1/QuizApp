@@ -1,0 +1,43 @@
+.map-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .map-screen__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .map-screen__map-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 80px;
+
+  }
+  
+  .map-screen__map-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .map-screen__circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+  }
+  
+  .map-screen__save-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
