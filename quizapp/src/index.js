@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MapScreen from './MapScreen';
+import HomeScreen from './HomeScreen';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MapScreen />
+    <HomeScreen />
   </React.StrictMode>,
   document.getElementById('root')
 );
