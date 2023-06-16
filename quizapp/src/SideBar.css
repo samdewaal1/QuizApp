@@ -1,0 +1,32 @@
+.sidebar {
+    width: 250px;
+    margin-right: 20px;
+    margin-left: 0px;
+    background-color: #004682;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .sidebar__header {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar__item {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar__link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .sidebar__link--active {
+    font-weight: bold;
+  }

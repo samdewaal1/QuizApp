@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './MapScreen.css';
-
+import { NavLink } from 'react-router-dom';
+import { SideBar } from './SideBar';
 const MapScreen = () => {
   const [circlePosition, setCirclePosition] = useState({ x: 0, y: 0 });
 
@@ -18,7 +19,15 @@ const MapScreen = () => {
 
   return (
     <div className="map-screen">
-      <h2 className="map-screen__title">Circle Map</h2>
+       <SideBar />
+       <div className="map-container" >
+      <div className="map-screen__header">
+      <h2 className="map-screen__title">Situatie 1</h2>
+      <p className="map-screen__instructions">
+        Klik op de kaart om je positie te bepalen <br /> Waar positioneer jij jezelf aan de hand van de informatie die je hebt gekregen?
+        <br></br> <b>Divisie nummer: </b><b>3.42</b>
+      </p>
+      </div>
       <div className="map-screen__map-container">
         <img
         src="/images/map.png"
@@ -35,8 +44,9 @@ const MapScreen = () => {
         />
       </div>
       <button className="map-screen__save-button" onClick={handleSaveCircle}>
-        Save Circle
+          Verzend locatie
       </button>
+    </div>
     </div>
   );
 };

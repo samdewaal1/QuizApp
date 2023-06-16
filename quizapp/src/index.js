@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MapScreen from './MapScreen';
-
+import { SideBar } from './SideBar';
 ReactDOM.render(
   <React.StrictMode>
     <MapScreen />
