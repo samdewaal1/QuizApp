@@ -21,8 +21,8 @@ const MapScreen = () => {
       <h2 className="map-screen__title">Circle Map</h2>
       <div className="map-screen__map-container">
         <img
-          src="map.png"
-          alt="Map"
+        src="/images/map.png"
+        alt="Map"
           className="map-screen__map-image"
           onClick={handleMapClick}
         />
