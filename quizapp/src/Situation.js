@@ -12,7 +12,7 @@ const Situation = () => {
     const navigate = useNavigate();
 
     const handleStartClick = () => {
-        navigate('/position');
+        navigate('/mapscreen');
     };
     return (
         <div id="container">
